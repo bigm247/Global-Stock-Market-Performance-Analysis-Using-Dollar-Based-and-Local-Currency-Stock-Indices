@@ -7,8 +7,8 @@ This project analyzes global economic and financial time-series data extracted f
 The analysis follows a comprehensive econometric and machine learning pipeline to explore relationships between stock markets and macroeconomic variables, test time-series and panel data properties, and group similar economies.
 
 ## Dependencies
-
-The notebook requires the following Python libraries:
+```bash
+The attached python notebook requires the following python libraries:
 
 - **pandas** – Data loading, manipulation, cleaning, and reshaping
 - **numpy** – Numerical operations and array handling
@@ -20,7 +20,7 @@ The notebook requires the following Python libraries:
 
 Install the core dependencies with:
 
-```bash
+
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn 
 
 
@@ -50,3 +50,14 @@ pip install pandas numpy matplotlib seaborn statsmodels scikit-learn
 - **Feature Scaling:** `StandardScaler` was applied to normalize indicators with different units (e.g., percentages vs. billions of USD).
 - **K-Means Clustering:** clustered countries or time periods into distinct groups based on economic performance profiles.
 - **Validation:** cluster quality and separation was evaluated using the **Silhouette Score**.
+```
+
+
+
+## Aim of the project
+The aim of this business data analytics project was to explore how changes in exchange rates affect how stock market performance is perceived and compared across countries. The study looked at whether stock indices measured in US dollars show different trends compared with those in local currencies and whether stable exchange rates and similar macroeconomic conditions help explain differences in market behavior between countries. This addresses a gap in existing research, which often only looks at stock markets in local currency and misses the perspective of international investors.
+
+## Note
+Check the files section for the python notebook and the datasets
+
+
